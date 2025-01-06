@@ -3,10 +3,66 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#utility {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right:50px;
+}
 
+#logoLink img {
+    max-width: 300px;
+}
 
+#formSearch {
+    margin: auto;
+    display: flex;
+}
 
+#formSearch input {
+    padding-left: 20px;
+    width: 500px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: large;
+}
 
+#login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#login input {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    border-radius: 50px;
+    height: 25px;
+
+}
+
+input#password {
+    margin-top: 5px;
+}
+
+#logStatus {
+    display: flex;
+    margin-top: 5px;
+}
+
+#logStatus label { 
+    margin: auto auto auto 0;
+    font-size: small;
+}
+
+#loginSubmit {
+    /* border: none; */
+    /* background-color: white; */
+    font-size: small;
+    padding: 0;
+    font-weight: bold;
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
